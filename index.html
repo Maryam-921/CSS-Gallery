@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="lightbox.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Flexbox gallery - only html and css -->
+        <section class="gallery1">
+        <div class="heading">
+            <h3>Photo <span>Gallery</span></h3>
+        </div>
+        <div class="gallery">
+            <div class="col1">
+                <img src="./Images/pic15.jpg" alt="">
+                <img src="./Images/pic2.jpg" alt="">
+                <img src="./Images/pic3.jpg" alt="">
+                <img src="./Images/pic4.jpg" alt="">
+                <img src="./Images/pic5.jpg" alt="">
+                <img src="./Images/pic6.jpg" alt="">
+            </div>
+            <div class="col2">
+                <img src="./Images/pic7.jpg" alt="">
+                <img src="./Images/pic8.jpg" alt="">
+                <img src="./Images/pic9.jpg" alt="">
+                <img src="./Images/pic10.jpg" alt="">
+                <img src="./Images/pic11.jpg" alt="">
+                <img src="./Images/pic18.jpg" alt="">
+            </div>
+            <div class="col3">
+                <img src="./Images/pic13.jpg" alt="">
+                <img src="./Images/pic14.jpg" alt="">
+                <img src="./Images/pic1.jpg" alt="">
+                <img src="./Images/pic16.jpg" alt="">
+                <img src="./Images/pic17.jpg" alt="">
+                <img src="./Images/pic12.jpg" alt="">
+            </div>
+        </div>
+    </section>
+        <!-- Lightbox gallery using grid - library used-->
+        <section class="gallery2">
+            <div class="heading"><h3>Lightbox <span>Gallery</span></h3></div>
+            <div class="lightbox-gallery">
+                <a href="./images/pic1.jpg" data-lightbox="image"><img src="./Images/pic1.jpg" alt=""></a>
+                <a href="./images/pic9.jpg" data-lightbox="image"><img src="./Images/pic9.jpg" alt=""></a>
+                <a href="./images/pic3.jpg" data-lightbox="image"><img src="./Images/pic3.jpg" alt=""></a>
+                <a href="./images/pic4.jpg" data-lightbox="image"><img src="./Images/pic4.jpg" alt=""></a>
+                <a href="./images/pic5.jpg" data-lightbox="image"><img src="./Images/pic5.jpg" alt=""></a>
+                <a href="./images/pic17.jpg" data-lightbox="image"><img src="./Images/pic17.jpg" alt=""></a>
+                <a href="./images/pic12.jpg" data-lightbox="image"><img src="./Images/pic12.jpg" alt=""></a>
+            </div></section>
+        
+        <!-- Slider gallery -->
+        <section class="gallery3">
+            <div class="heading"><h3>Slider <span>Gallery</span></h3></div>
+            <div class="slider-gallery">
+                <ul class="images-list">
+                    <img src="./Images/pic15.jpg" alt="">
+                    <img src="./Images/pic2.jpg" alt="">
+                    <img src="./Images/pic3.jpg" alt="">
+                    <img src="./Images/pic4.jpg" alt="">
+                    <img src="./Images/pic5.jpg" alt="">
+                    <img src="./Images/pic6.jpg" alt="">
+                    <img src="./Images/pic16.jpg" alt="">
+                </ul>
+            </div></section>
+        
+    </div>
+    <script src="lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
